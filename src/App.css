@@ -326,7 +326,7 @@ body[data-theme="dark"] footer a {
 
 /* Buttons */
 body[data-theme="dark"] .btn-secondary {
-  color: #ffffff;
+  color: black;
   border-color: #ffffff;
 }
 
