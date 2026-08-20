@@ -205,19 +205,19 @@ body[data-theme="dark"] .nav-links a:hover {
 
 body[data-theme="dark"] .about-section,
 body[data-theme="dark"] .skills-section,
-body[data-theme="dark"] .projects-section,
+body[data-theme="dark"] .project-section,
 body[data-theme="dark"] .contact-section {
   background-color: #121212;
   color: #f4f6f8;
 }
 
-body[data-theme="dark"] .skill-card,
+body[data-theme="dark"] .skill-item,
 body[data-theme="dark"] .project-card {
   background-color: #1e1e1e;
   color: #f4f6f8;
 }
 
-body[data-theme="dark"] .skill-card p,
+body[data-theme="dark"] .skill-item p,
 body[data-theme="dark"] .project-card p {
   color: #d1d5db;
 }
@@ -255,7 +255,7 @@ body[data-theme="dark"] .nav-links a {
 /* Sections */
 body[data-theme="dark"] .about-section,
 body[data-theme="dark"] .skills-section,
-body[data-theme="dark"] .projects-section,
+body[data-theme="dark"] .project-section,
 body[data-theme="dark"] .contact-section {
   background-color: #121212;
   color: #f4f6f8;
@@ -275,13 +275,13 @@ body[data-theme="dark"] p {
 }
 
 /* Skill cards */
-body[data-theme="dark"] .skill-card {
+body[data-theme="dark"] .skill-item {
   background-color: #1e1e1e;
   color: #f4f6f8;
 }
 
-body[data-theme="dark"] .skill-card h3,
-body[data-theme="dark"] .skill-card p {
+body[data-theme="dark"] .skill-item h3,
+body[data-theme="dark"] .skill-item p {
   color: #f4f6f8;
 }
 
