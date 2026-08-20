@@ -1,0 +1,39 @@
+.about-section {
+  padding: 80px 5%;
+  text-align: center;
+}
+
+.about-content {
+  max-width: 900px;
+  margin: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 50px;
+}
+
+.profile-figure img {
+  width: 200px;
+  border-radius: 50%;
+}
+
+.profile-figure figcaption {
+  margin-top: 10px;
+  font-weight: 600;
+}
+
+.about-text {
+  max-width: 500px;
+  text-align: left;
+  font-size: 1.1rem;
+}
+
+@media (max-width: 768px) {
+  .about-content {
+    flex-direction: column;
+  }
+
+  .about-text {
+    text-align: center;
+  }
+}

@@ -1,0 +1,79 @@
+.hero-section {
+  background: linear-gradient(135deg, var(--primary), #2e86ab);
+  color: white;
+  text-align: center;
+  padding: 100px 5%;
+}
+
+.hero-section h1 {
+  font-size: 3rem;
+  margin-bottom: 20px;
+  animation: fadeinup 0.8s ease 0.2s both;
+}
+
+.tagline {
+  animation: fadeinup 0.8s ease 0.4s both;
+}
+
+.hero-button {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+  margin-top: 30px;
+  animation: fadeinup 0.8s ease 0.6s both;
+}
+
+@keyframes fadeinup {
+  from {
+    opacity: 0;
+    transform: translateY(30px);
+  }
+
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.btn {
+  display: inline-block;
+  padding: 12px 28px;
+  border-radius: 8px;
+  text-decoration: none;
+  font-weight: 600;
+  font-size: 1rem;
+  border: 2px solid transparent;
+}
+
+.btn-primary {
+  background-color: var(--accent);
+  color: white;
+}
+
+.btn-primary:hover {
+  background: transparent;
+  border-color: var(--accent);
+  color: var(--accent);
+}
+
+.btn-secondary {
+  background-color: white;
+  color: var(--primary);
+}
+
+.btn-secondary:hover {
+  background-color: transparent;
+  border-color: white;
+  color: white;
+}
+
+@media (max-width: 768px) {
+  .hero-section h1 {
+    font-size: 2rem;
+  }
+
+  .hero-button {
+    flex-direction: column;
+    align-items: center;
+  }
+}
